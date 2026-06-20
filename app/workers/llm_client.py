@@ -17,7 +17,7 @@ VALID_CATEGORIES = [
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.0-flash:generateContent"
+    "gemini-3-flash-preview:generateContent"
 )
 
 

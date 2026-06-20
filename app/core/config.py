@@ -7,8 +7,13 @@ class Settings(BaseSettings):
     GEMINI_API_KEY: str = ""
     UPLOAD_DIR: str = "/app/uploads"
 
+    POSTGRES_USER: str = "txn_user"
+    POSTGRES_PASSWORD: str = "txn_pass"
+    POSTGRES_DB: str = "txn_db"
+
     class Config:
         env_file = ".env"
+        extra = "ignore"
 
 
 settings = Settings()
